@@ -1,0 +1,113 @@
+.dropdown, .dropleft, .dropright, .dropup {
+    position: relative;
+}
+
+.dropdown-menu {
+    top: 26px;
+    margin: 1.125rem 0;
+    padding: 1rem 0;
+    font-size: .875rem;
+    line-height: 1.2rem;
+    color: #18113c;
+    border: none;
+    min-width: 12rem;
+    box-shadow: 0 10px 30px 0 rgb(31 45 61 / 26%);
+    border-radius: .5rem;
+}
+
+.avatar-md {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: .83333rem;
+}
+
+.avatar {
+    position: relative;
+    display: inline-block;
+    /*width: 3rem;
+    height: 3rem;*/
+    font-size: 1rem;
+}
+
+.avatar-indicators:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: table;
+}
+
+.avatar-online:before {
+    background-color: #19eb58;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.avatar-xl {
+    width: 6rem;
+    height: 6rem;
+    font-size: 1.66667rem;
+}
+
+.avatar-xxl{
+    width: 10rem;
+    height: 10rem;
+    font-size: 2.5rem;
+}
+
+.mt-n5, .my-n5 {
+    margin-top: -3rem!important;
+}
+
+.mt-n9, .my-n9 {
+    margin-top: -4rem!important;
+}
+
+.badge-light-primary {
+    color: #754ffe!important;
+    background-color: #e3dcff;
+}
+
+.border-width-4 {
+    border: 4px solid;
+}
+
+.border-white {
+    border-color: #fff!important;
+}
+.nav-item.active {
+    background-color: #e3dcff;
+    border-radius: .5rem;
+    color: #754ffe!important;
+}
+.navbar-nav .active>.nav-link {
+    color: #754ffe!important;
+}
+
+.sombra-1 {
+    box-shadow: 0 0 5px #ddd;
+  }
+
+ 
+/*Alinha verticalmente os icones*/
+  .bi {
+    position: relative;
+    top: -2px;
+  }
+
+.carousel-inner > .carousel-item >img{
+    width: 100%;
+}
